@@ -3,7 +3,7 @@
     "displayName": "LessBuilder",
     "description": "Extension for compiler less in css",
     "version": "1.0.0",
-    "publisher": "LessBuilder",
+    "publisher": "Cymon",
     "engines": {
         "vscode": "^1.12.0"
     },
