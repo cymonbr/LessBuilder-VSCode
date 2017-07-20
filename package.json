@@ -2,7 +2,7 @@
     "name": "lessbuilder",
     "displayName": "LessBuilder",
     "description": "Extension for compiler less in css",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icon": "images/logo.png",
     "license": "MIT",
     "publisher": "CymonK",
