@@ -1,0 +1,56 @@
+{
+    "name": "lessbuilder",
+    "displayName": "LessBuilder",
+    "description": "Extension for compiler less in css",
+    "version": "1.0.0",
+    "publisher": "LessBuilder",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:less",
+        "onCommand:extension.lessBuilder",
+        "onCommand:extension.lessBuilderMin"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [{
+                "command": "extension.lessBuilder",
+                "title": "Compile Less"
+            },
+            {
+                "command": "extension.lessBuilderMin",
+                "title": "Compile Less - Minify"
+            }
+        ],
+        "keybindings": [{
+                "command": "extension.lessBuilder",
+                "key": "Ctrl+Alt+M"
+            },
+            {
+                "command": "extension.lessBuilderMin",
+                "key": "Ctrl+Shift+Alt+M"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    },
+    "dependencies": {
+        "less": "^2.7.2",
+        "less-plugin-clean-css": "^1.5.1"
+    }
+}
