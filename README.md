@@ -8,13 +8,12 @@ In order for the extension to work correctly, it is necessary to have NodeJS ins
 
 Performs _Less_ compilation to traditional or minimized _CSS_ format using _NodeJS_ components.
 
-
 ## Execution Commands
 First open **Command Pallete** _(**Win:** Ctrl+Shift+P / **Mac:** Cmd+Shift+p)_ and type **Compile**, then just select the command you want.
 * **Compile Less** (for traditional conversion)
 * **Compile Less - Minify** (for minimized conversion)
 
-## Atalhos Pré-definidos
+## Predefined Shortcuts
 * **Compile Less** _(**Win:** Ctrl+Alt+M / **Mac:** Cmd+Option+M)_
 * **Compile Less - Minify** _(**Win:** Ctrl+Shift+Alt+M / **Mac:** Cmd+Shift+Option+M)_
 
@@ -33,7 +32,7 @@ First version of the extension, no important note at the moment **(")(^_^)(")**.
 >
 >Also follow the evolution of the extension in [github](https://github.com/cymonbr/LessBuilder-VSCode).
 
-### Version 1.0.0
+### Version 1.0.1
 
 Initial version of the extension!!! Go go go
 
