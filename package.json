@@ -5,7 +5,7 @@
     "version": "1.0.3",
     "icon": "images/logo.png",
     "license": "MIT",
-    "publisher": "CymonK",
+    "publisher": "cymonk",
     "engines": {
         "vscode": "^1.12.0"
     },
