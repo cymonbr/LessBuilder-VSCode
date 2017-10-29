@@ -2,7 +2,7 @@
     "name": "lessbuilder",
     "displayName": "LessBuilder",
     "description": "Extension for compiler less in css",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "icon": "images/logo.png",
     "license": "MIT",
     "publisher": "CymonK",
@@ -10,9 +10,10 @@
         "vscode": "^1.12.0"
     },
     "categories": [
+        "Languages",
         "Other"
     ],
-        "bugs": {
+    "bugs": {
         "url": "https://github.com/cymonbr/LessBuilder-VSCode/issues"
     },
     "repository": {
